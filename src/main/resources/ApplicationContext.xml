@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userdao" class="dao.DaoVolatile.UserDao"></bean>
+    <bean id="qtsdao" class="dao.DaoVolatile.QuestionDao"></bean>
+
+    <bean id="testMetier" class="metier.TestMetier"></bean>
+    <bean id="qtsMetier" class="metier.QuestionMetier">
+        <property name="questionDao" ref="qtsdao"></property>
+    </bean>
+    <bean id="userMetier" class="metier.UserMetier">
+        <property name="userdao" ref="userdao"></property>
+    </bean>
+
+    <bean id="testController" class="presentation.TestController">
+        <property name="testMetier" ref="testMetier"></property>
+    </bean>
+    <bean id="userController" class="presentation.UserController">
+        <property name="userMetier" ref="userMetier"></property>
+    </bean>
+    <bean id="qtsController" class="presentation.QuestionController">
+        <property name="questionMetier" ref="qtsMetier"></property>
+    </bean>
+
+</beans>
