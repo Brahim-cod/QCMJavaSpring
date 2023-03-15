@@ -1,15 +1,12 @@
 package com.qcm;
 
 
-import metier.ITestMetier;
-import model.Test;
-import model.Utilisateur;
+
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import presentation.*;
 
-import java.util.ArrayList;
-import java.util.List;
+
 import java.util.Scanner;
 
 public class Main {
@@ -18,11 +15,6 @@ public class Main {
     static IQuestionController      questionController;
     public static Scanner                  clavier = new Scanner(System.in);
 
-    static void Test(){
-
-
-
-    }
 
     static void SpringTest(){
 
