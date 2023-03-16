@@ -1,8 +1,7 @@
-package presentation;
+package com.qcm.presentation;
 
-import model.Question;
-import model.Test;
-import model.Utilisateur;
+import com.qcm.model.Utilisateur;
+import com.qcm.model.Question;
 
 import java.util.List;
 

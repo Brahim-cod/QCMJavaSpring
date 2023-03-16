@@ -1,6 +1,6 @@
-package metier;
+package com.qcm.metier;
 
-import model.Question;
+import com.qcm.model.Question;
 
 import java.util.List;
 

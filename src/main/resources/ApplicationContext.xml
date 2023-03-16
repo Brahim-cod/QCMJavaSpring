@@ -3,25 +3,25 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="userdao" class="dao.DaoVolatile.UserDao"></bean>
-    <bean id="qtsdao" class="dao.DaoVolatile.QuestionDao"></bean>
+    <bean id="userdao" class="com.qcm.dao.DaoVolatile.UserDao"/>
+    <bean id="qtsdao" class="com.qcm.dao.DaoVolatile.QuestionDao"/>
 
-    <bean id="testMetier" class="metier.TestMetier"></bean>
-    <bean id="qtsMetier" class="metier.QuestionMetier">
-        <property name="questionDao" ref="qtsdao"></property>
+    <bean id="testMetier" class="com.qcm.metier.TestMetier"/>
+    <bean id="qtsMetier" class="com.qcm.metier.QuestionMetier">
+        <property name="questionDao" ref="qtsdao"/>
     </bean>
-    <bean id="userMetier" class="metier.UserMetier">
-        <property name="userdao" ref="userdao"></property>
+    <bean id="userMetier" class="com.qcm.metier.UserMetier">
+        <property name="userdao" ref="userdao"/>
     </bean>
 
-    <bean id="testController" class="presentation.TestController">
-        <property name="testMetier" ref="testMetier"></property>
+    <bean id="testController" class="com.qcm.presentation.TestController">
+        <property name="testMetier" ref="testMetier"/>
     </bean>
-    <bean id="userController" class="presentation.UserController">
-        <property name="userMetier" ref="userMetier"></property>
+    <bean id="userController" class="com.qcm.presentation.UserController">
+        <property name="userMetier" ref="userMetier"/>
     </bean>
-    <bean id="qtsController" class="presentation.QuestionController">
-        <property name="questionMetier" ref="qtsMetier"></property>
+    <bean id="qtsController" class="com.qcm.presentation.QuestionController">
+        <property name="questionMetier" ref="qtsMetier"/>
     </bean>
 
 </beans>

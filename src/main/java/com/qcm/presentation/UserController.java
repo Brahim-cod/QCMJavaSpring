@@ -1,9 +1,9 @@
-package presentation;
+package com.qcm.presentation;
 
 import com.qcm.Main;
+import com.qcm.model.Utilisateur;
 import lombok.Data;
-import metier.IUserMetier;
-import model.Utilisateur;
+import com.qcm.metier.IUserMetier;
 
 @Data
 public class UserController implements IUserController{

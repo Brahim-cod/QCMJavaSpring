@@ -1,12 +1,11 @@
-package presentation;
+package com.qcm.presentation;
 
 import com.qcm.Main;
+import com.qcm.model.Utilisateur;
 import lombok.Data;
-import metier.ITestMetier;
-import metier.TestMetier;
-import model.Question;
-import model.Test;
-import model.Utilisateur;
+import com.qcm.metier.ITestMetier;
+import com.qcm.model.Question;
+import com.qcm.model.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +21,7 @@ public class TestController implements ITestController{
         int x = 0;
 
         do {
-            Character c;
+            char c;
             System.out.println(test.getQuestions().get(x));
             System.out.print("=> Answer : ");
             c = Main.clavier.nextLine().charAt(0);

@@ -2,17 +2,20 @@ package com.qcm;
 
 
 
+import com.qcm.presentation.IQuestionController;
+import com.qcm.presentation.ITestController;
+import com.qcm.presentation.IUserController;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import presentation.*;
+
 
 
 import java.util.Scanner;
 
 public class Main {
-    static ITestController          testController;
-    static IUserController          userController;
-    static IQuestionController      questionController;
+    static ITestController testController;
+    static IUserController userController;
+    static IQuestionController questionController;
     public static Scanner                  clavier = new Scanner(System.in);
 
 

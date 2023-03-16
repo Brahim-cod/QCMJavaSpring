@@ -1,8 +1,7 @@
-package dao.DaoVolatile;
+package com.qcm.dao.DaoVolatile;
 
-import dao.IDao;
-import model.Question;
-import model.Utilisateur;
+import com.qcm.model.Question;
+import com.qcm.dao.IDao;
 
 import java.util.*;
 
@@ -10,7 +9,7 @@ public class QuestionDao implements IDao<Question, Long> {
     @Override
     public Question getByID(Long qstID) {
         return BD().stream()
-                .filter(q -> q.getID() == qstID)
+                .filter(q -> q.getID().equals(qstID))
                 .findFirst()
                 .orElse(null);
     }

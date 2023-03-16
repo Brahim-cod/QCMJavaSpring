@@ -1,12 +1,10 @@
-package presentation;
+package com.qcm.presentation;
 
 import lombok.Data;
-import metier.IQuestionMetier;
-import metier.QuestionMetier;
-import model.Question;
+import com.qcm.metier.IQuestionMetier;
+import com.qcm.model.Question;
 
 import java.util.List;
-import java.util.Set;
 
 @Data
 public class QuestionController implements IQuestionController{

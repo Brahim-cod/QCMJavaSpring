@@ -1,6 +1,6 @@
-package metier;
+package com.qcm.metier;
 
-import model.Test;
+import com.qcm.model.Test;
 
 import java.util.List;
 

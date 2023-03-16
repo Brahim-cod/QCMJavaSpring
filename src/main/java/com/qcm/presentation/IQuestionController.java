@@ -1,9 +1,8 @@
-package presentation;
+package com.qcm.presentation;
 
-import model.Question;
+import com.qcm.model.Question;
 
 import java.util.List;
-import java.util.Set;
 
 public interface IQuestionController {
     List<Question> QUESTIONS_DISPO();

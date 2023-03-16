@@ -1,13 +1,10 @@
-package metier;
+package com.qcm.metier;
 
-import dao.DaoVolatile.QuestionDao;
-import dao.IDao;
+import com.qcm.dao.IDao;
 import lombok.Data;
-import model.Question;
+import com.qcm.model.Question;
 
 import java.util.List;
-import java.util.Locale;
-import java.util.Set;
 
 @Data
 public class QuestionMetier implements IQuestionMetier{

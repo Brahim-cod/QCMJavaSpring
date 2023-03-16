@@ -1,6 +1,6 @@
-package metier;
+package com.qcm.metier;
 
-import model.Utilisateur;
+import com.qcm.model.Utilisateur;
 
 public interface IUserMetier {
 

@@ -1,6 +1,6 @@
-package presentation;
+package com.qcm.presentation;
 
-import model.Utilisateur;
+import com.qcm.model.Utilisateur;
 
 public interface IUserController {
 

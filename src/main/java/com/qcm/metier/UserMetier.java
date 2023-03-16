@@ -1,9 +1,8 @@
-package metier;
+package com.qcm.metier;
 
-import dao.DaoVolatile.UserDao;
-import dao.IDao;
+import com.qcm.model.Utilisateur;
+import com.qcm.dao.IDao;
 import lombok.*;
-import model.Utilisateur;
 
 
 @Data
@@ -16,7 +15,6 @@ public class UserMetier implements IUserMetier{
         var user = userdao.getByID(utilisateur.getUsername());
         if (user == null) {
             System.out.println("null"); return false; }
-        if (user.getPassword().equals(utilisateur.getPassword())) { return true; }
-        return false;
+        return user.getPassword().equals(utilisateur.getPassword());
     }
 }

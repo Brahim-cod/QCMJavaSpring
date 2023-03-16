@@ -1,4 +1,4 @@
-package model;
+package com.qcm.model;
 
 import lombok.*;
 
@@ -12,7 +12,7 @@ public class Utilisateur {
         var testStr  = "=============================================================================\n";
             testStr += "=> Username    : "   + getUsername() +                                      "\n";
             testStr += "=> Password    : " + getPassword() +                                        "\n";
-            testStr  = "=============================================================================\n";
+            testStr += "=============================================================================\n";
         return testStr;
     }
 }

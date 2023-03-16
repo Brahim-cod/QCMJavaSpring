@@ -1,7 +1,7 @@
-package dao.DaoVolatile;
+package com.qcm.dao.DaoVolatile;
 
-import dao.IDao;
-import model.Utilisateur;
+import com.qcm.model.Utilisateur;
+import com.qcm.dao.IDao;
 
 import java.util.*;
 
@@ -9,7 +9,7 @@ public class UserDao implements IDao<Utilisateur, String> {
     @Override
     public Utilisateur getByID(String username) {
         return BD().stream()
-                .filter(user -> user.getUsername().trim().toLowerCase().equals(username.trim().toLowerCase()))
+                .filter(user -> user.getUsername().trim().equalsIgnoreCase(username.trim()))
                 .findFirst()
                 .orElse(null);
     }
