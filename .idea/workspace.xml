@@ -7,25 +7,6 @@
     <list default="true" id="811e5326-17d0-496a-b7d6-aad73aa826f3" name="Changes" comment="Move packages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qcm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DaoVolatile/QuestionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/dao/DaoVolatile/QuestionDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/DaoVolatile/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/dao/DaoVolatile/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dao/IDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/dao/IDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/IQuestionMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/metier/IQuestionMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/ITestMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/metier/ITestMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/IUserMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/metier/IUserMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/QuestionMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/metier/QuestionMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/TestMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/metier/TestMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/metier/UserMetier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/metier/UserMetier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/model/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/model/Utilisateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/IQuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/presentation/IQuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/ITestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/presentation/ITestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/IUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/presentation/IUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/presentation/QuestionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/presentation/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/presentation/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qcm/presentation/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/ApplicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +91,7 @@
       <updated>1678898444622</updated>
       <workItem from="1678898445748" duration="11615000" />
       <workItem from="1678914315318" duration="4191000" />
-      <workItem from="1679001831429" duration="583000" />
+      <workItem from="1679001831429" duration="708000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1678919195010</created>
@@ -126,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678919361880</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Move packages">
+      <created>1679002421845</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679002421846</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -27,7 +27,6 @@ public class Main {
         testController      = (ITestController) context.getBean("testController");
         questionController  = (IQuestionController) context.getBean("qtsController");
 
-
         try {
 
             testController.DisplayScore(userController.Connexion(),questionController.QUESTIONS_DISPO());
